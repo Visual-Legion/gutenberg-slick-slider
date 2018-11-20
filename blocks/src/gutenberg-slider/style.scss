@@ -1,0 +1,21 @@
+.vl_gs__title{
+	color:#222;
+}
+
+.slick-slide {
+  padding: 10px;
+  display: table-cell !important;
+  float: none !important;
+  vertical-align: middle;
+  img{
+  	margin:auto;
+  }
+}
+
+.slick-track {
+  display: table !important;
+}
+
+.removeSlide{
+	margin-right: 10px;
+}
