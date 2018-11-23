@@ -49,5 +49,5 @@ Init
 
 == Todo ==
 
-- Add general page block that fetches last custom posts
-- CLI setup where user can choose to have CPT features or not
+- Finish integrating text compatability
+- Make animations / transitions in admin panel for add/remove

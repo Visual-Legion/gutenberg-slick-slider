@@ -15,7 +15,7 @@ import { Slide } from './components/Slide';
 
 const {MediaUpload, PlainText, RichText} = wp.editor;
 const {__} = wp.i18n; // Import __() from wp.i18n
-const {registerBlockType, InspectorControls} = wp.blocks; // Import registerBlockType() from wp.blocks
+const {registerBlockType, BlockControls} = wp.blocks; // Import registerBlockType() from wp.blocks
 const {Button} = wp.components;
 
 /**
@@ -90,9 +90,10 @@ registerBlockType('vl-gs/main', {
 			console.log('slider', slider);
 		}
 
-		return (
+		return [
+			<BlockControls>a</BlockControls>,
 			<SlickSlider handleSliderChange={ handleSliderChange } slider={ slider } />
-		)
+		]
 
 	},
 
